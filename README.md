@@ -1,0 +1,3 @@
+# MyNews
+
+Aplikasi Berita
