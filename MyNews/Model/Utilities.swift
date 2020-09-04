@@ -12,6 +12,7 @@ struct Utilities {
     let appName: String = "INI BERITA"
     let newsCellIdentifier: String = "newsCell"
     let newsNib: String = "NewsTableViewCell"
+    let segueToDetail: String = "detailSegue"
     
     
     func convertDate(date: String) -> String {

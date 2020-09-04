@@ -18,6 +18,7 @@
 		8F2B95DD24FFD07300E8F32A /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B95DB24FFD07300E8F32A /* NewsTableViewCell.swift */; };
 		8F2B95DE24FFD07300E8F32A /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2B95DC24FFD07300E8F32A /* NewsTableViewCell.xib */; };
 		8F2B95E124FFD42600E8F32A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2B95E024FFD42600E8F32A /* Utilities.swift */; };
+		8F8A8F6924FFFB7400B5EA8F /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8A8F6824FFFB7400B5EA8F /* DetailVC.swift */; };
 		B07F8436133D90E78C99F30A /* Pods_MyNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F9FCFA03AD39926D13C9C3 /* Pods_MyNews.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		8F2B95DB24FFD07300E8F32A /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		8F2B95DC24FFD07300E8F32A /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		8F2B95E024FFD42600E8F32A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8F8A8F6824FFFB7400B5EA8F /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		91F9FCFA03AD39926D13C9C3 /* Pods_MyNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				8F2B95C524FFBF9B00E8F32A /* ViewController.swift */,
+				8F8A8F6824FFFB7400B5EA8F /* DetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				8F2B95E124FFD42600E8F32A /* Utilities.swift in Sources */,
 				8F2B95DD24FFD07300E8F32A /* NewsTableViewCell.swift in Sources */,
 				8F2B95C224FFBF9B00E8F32A /* AppDelegate.swift in Sources */,
+				8F8A8F6924FFFB7400B5EA8F /* DetailVC.swift in Sources */,
 				8F2B95D924FFC4A200E8F32A /* NewsFeed.swift in Sources */,
 				8F2B95C424FFBF9B00E8F32A /* SceneDelegate.swift in Sources */,
 			);
