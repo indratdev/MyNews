@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var titleAppLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
@@ -58,15 +58,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func searchTFEditing(_ sender: UITextField) {
-        
-    }
-    
-    
-    
     func loadNews(){
-        //        newsManager.filterNews = selectedFilter
-        //        print(selectedFilter)
         newsManager.requestURL(filter: selectedFilter) { [weak self] result in
             switch result {
             case .success(let data):
